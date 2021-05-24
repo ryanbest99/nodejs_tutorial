@@ -2,11 +2,12 @@
 // Modules - Encapsulated Code (only share minimum)
 
 const names = require("./4-names.js");
-console.log(names);
 const sayhi = require("./5-utils.js");
 const data = require("./6-alternative-flavor");
+require("./7-mind-grenade");
 
-console.log(data);
+// console.log(names);
+// console.log(data);
 
-sayhi("Ryan");
-sayhi(names.peter);
+// sayhi("Ryan");
+// sayhi(names.peter);
