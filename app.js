@@ -3,11 +3,12 @@
 
 const names = require("./4-names.js");
 const sayhi = require("./5-utils.js");
-const data = require("./6-alternative-flavor");
-require("./7-mind-grenade");
+// const data = require("./6-alternative-flavor");
+// require("./7-mind-grenade");
 
-// console.log(names);
+console.log(names);
+console.log(sayhi);
 // console.log(data);
 
-// sayhi("Ryan");
-// sayhi(names.peter);
+sayhi("Ryan");
+sayhi(names.peter);
